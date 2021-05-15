@@ -1,0 +1,33 @@
+
+body{
+    background-color: lightgreen;
+
+}
+
+p,h1 {
+    text-align: center;
+
+}
+
+li:hover {
+
+    background-color: orangered;
+}
+
+li:active {
+    color:blue;
+}
+li {
+    margin: 25px 100px;
+    padding: 20px;
+}
+
+ol {
+  
+    list-style: none;
+}
+
+ul {
+
+   list-style: none;
+}
