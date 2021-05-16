@@ -1,0 +1,56 @@
+
+h1,h2,h3{
+
+    text-align: center;
+    color:red;
+    
+}
+
+.fonte {
+    border: solid 1px black;
+    font-size: 40px;
+}
+
+ol li {
+
+    background-color: yellow;
+}  
+
+ 
+ ol li:nth-child(2n) {
+    color: green;
+}
+
+ ol li:nth-child(2n + 1) {
+    text-transform: uppercase;
+    color: hotpink;
+}
+ li {
+    font-style: italic;
+    font-size: 20px;
+    
+
+}
+
+ ol li:nth-child(1){
+   
+    font-weight:bold;
+    border: solid 3px black;
+
+ }
+
+ul.programa li:nth-of-type(2){
+    text-transform: uppercase;
+    background-color:pink;
+}
+ul.programa li:nth-of-type(-1n+3){
+    text-transform: uppercase;
+    color: blue
+}
+
+ul li  :hover { 
+    color: hsl(200, 150%, 70%);
+    font-weight: bold;
+    
+    
+ }
