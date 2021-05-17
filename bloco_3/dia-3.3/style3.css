@@ -1,0 +1,61 @@
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+
+    
+    background-color: aqua];
+ }
+
+p {
+    font-size: 35px;   
+    color: orangered;
+}
+
+body {
+    background-color:beige;
+}
+div:hover { 
+   
+    border: solid 5px red;
+ }
+
+div:nth-child(2n+1){
+    font-size: 40px;
+    font-style: italic;
+    
+    
+}  
+
+ 
+ div:nth-of-type(3n) {
+     
+     text-align: center;
+    
+     font-size: 60px;
+     background-color: violet;
+ }
+
+ div:nth-of-type(4n) h3{
+
+    background-color:rebeccapurple;
+    font-size: 30px;
+    
+ }
+ div:nth-of-type(5){
+
+    background-color: aqua;
+ }
+
+ div:nth-of-type(2){
+
+    background-color:green;
+    font-size: 35px;
+ }
+
+ div:nth-of-type(1){
+
+    background-color: yellow;
+    font-size: 35px;
+ }
+
